@@ -4,8 +4,7 @@ import Chart from "../../components/Chart03";
 import instruction from "./instruction.md";
 
 const convertData = (input) => {
-  const maleData = input.filter(item => item.gender === "男性");
-  return maleData;
+  return input.filter(item => item.gender === "男性");
 };
 
 const Lesson = () => {
